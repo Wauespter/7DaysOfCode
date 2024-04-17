@@ -1,0 +1,241 @@
+:root {
+    --base-branco: white;
+    --cinza-claro: #667085;
+    --cinza-cabecalho: #3a404e;
+    --cinza-escuro: #101828;
+    --cinza-bordas: #EAECF0;
+    --cinza-rodape: #98A2B3;
+    --vermelho: #8e2424;
+    --vermelho-depoimentos: #fcf8f7;
+    --fundo-rodapé: #F9FAFB;
+    --fonte-principal: "Inter", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 1em 3.5em;
+    align-items: center;
+    color: var(--cinza-cabecalho);
+    font-size:16px;
+    font-weight: 500;
+    justify-content: space-between;
+    background-color: var(--base-branco);
+}
+
+.cabecalho__logo {
+    display: flex;    
+}
+
+.botao__menu {
+    display: flex;
+    padding: 0 20em 0 0;
+}
+
+.lista-menu__item {
+    padding: 0 1em;
+}
+
+.botao__login {
+    display: flex;
+}
+
+.botao__cadastro {
+    background-color: var(--vermelho);
+    border-radius: 8px;
+    padding: 1em 1.5em;
+    color: var(--base-branco);
+}
+
+.apresentacao {
+    font-weight: 600;
+    text-align: center;
+    padding: 4em;
+    background-color: var(--base-branco);
+}
+
+.apresentacao__section {
+    color: var(--vermelho);
+    font-size: 16px;
+}
+
+.apresentacao__titulo {
+    color: var(--cinza-escuro);
+    font-size: 48px;
+    padding: 0.5em 0;
+}
+
+.apresentacao__texto {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 9em;
+}
+
+.metricas {
+    display: flex
+}
+
+.metricas__numeros {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metricas__titulo {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.metricas__texto {
+    color: var(--cinza-claro);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container__metricas {
+    padding: 0 3em;
+}
+
+.anuncio__imagem {
+    padding-top: 4em;
+    width: 90vw;
+}
+
+.anuncio {
+    text-align: center;
+    padding: 4em;
+    background-color: var(--base-branco);
+}
+
+.anuncio__section {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.anuncio__titulo {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0.5em 0;
+}
+
+.anuncio__texto {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    padding: 0 9em;
+    font-weight: 400;
+}
+
+.vagas {
+    display: block;
+    padding: 0 20em;
+}
+
+.vagas__container {
+    padding: 1em 0.5em;
+    margin: 2em 0;
+    line-height: 3em;
+    border: 1px solid var(--cinza-bordas);
+    border-radius: 16px;
+}
+
+.vagas__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.vagas__area {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-escuro);
+}
+
+.vagas__informacao {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+    padding-right: 1em;
+}
+
+.depoimentos {
+    text-align: center;
+    margin: 4.5em;
+    padding: 4em 4em;
+    background-color: var(--vermelho-depoimentos);
+}
+
+.depoimentos__section {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.depoimentos__texto {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 500;
+    padding: 0.5em 0 1.5em;
+}
+
+.colaborador {
+    display: flex;
+    flex-direction: column;
+}
+
+.colobarador__foto {
+    width: 5%;
+    margin: auto;
+}
+
+.colaborador__nome {
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 0.5em;
+}
+
+.colaborador__area {
+    color: var(--cinza-claro);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 9em;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--fundo-rodapé);
+}
+
+.contato__titulo {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.contato__descricao {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.campo__email {
+    align-items: center;
+    margin: 2em 1em 1em 0;
+    padding: 0.5em 6em 0.5em 0.5em;
+}
+
+.rodape {
+    display: flex;
+    padding: 1.5em 0 3em 0;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cinza-rodape);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
