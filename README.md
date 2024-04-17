@@ -12,7 +12,7 @@
 
 Languages: HTML and CSS
 
-📚 The project can be viewed and tested via the following link: https://wauespter.github.io/AluraPlus-Responsive/
+📚 The project can be viewed and tested via the following link: https://wauespter.github.io/7DaysOfCode/
 
 📁 The project can be accessed here in the repository.
 
